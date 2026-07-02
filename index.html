@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial 2026: Faza Pucharowa</title>
+    <style>
+        :root {
+            --bg-dark: #050505;
+            --neon-pink: #ff00ff;
+            --neon-lime: #ccff00;
+            --text: #ffffff;
+        }
+        body { background: var(--bg-dark); color: var(--text); font-family: 'Segoe UI', sans-serif; padding: 40px 20px; display: flex; flex-direction: column; align-items: center; }
+        header { margin-bottom: 40px; text-align: center; }
+        h1 { font-size: 3rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 4px; color: var(--neon-lime); text-shadow: 0 0 20px var(--neon-lime); }
+        .container { width: 100%; max-width: 800px; background: #111; border: 2px solid var(--neon-pink); border-radius: 15px; padding: 30px; box-shadow: 0 0 30px rgba(255, 0, 255, 0.2); }
+        table { width: 100%; border-collapse: collapse; }
+        th { color: var(--neon-pink); font-size: 0.9rem; text-transform: uppercase; padding: 15px; border-bottom: 2px solid var(--neon-lime); }
+        td { padding: 15px; border-bottom: 1px solid #333; text-align: center; font-weight: bold; }
+        .rank { color: var(--neon-lime); }
+        .total { color: var(--neon-pink); font-size: 1.2rem; }
+        tr:hover { background: rgba(255, 255, 255, 0.05); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Faza Pucharowa</h1>
+    </header>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Msc</th><th style="text-align: left;">Zawodnik</th><th>D1</th><th>D2</th><th>D3</th><th>D4</th><th>D5</th><th>D6</th><th>D7</th><th>SUMA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tutaj będą wpisywane wyniki nowego tygodnia -->
+                <tr><td class="rank">-</td><td style="text-align: left;">Czekamy na start...</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="total">0</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
